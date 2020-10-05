@@ -12,7 +12,17 @@ Given an elctric vehicle (EV) that's been assigned some sequence of locations to
 
 ## Why does frvcpy exist?
 
-FRVCPs arise in many EV routing problems. While algorithms solving FRVCPs exist, the good ones are often a challenge to implement and may ultimately deter researchers from using them. We released frvcpy with the hope of making it easier for researchers to solve EV routing problems, facilitating the development of optimization tools that may ultimately enable the mass adoption of electric vehicles. 
+FRVCPs arise in many EV routing problems. While algorithms solving FRVCPs exist, the good ones are often a challenge to implement and may ultimately deter researchers from using them. We released frvcpy with the hope of making it easier for researchers to solve EV routing problems, facilitating the development of optimization tools that may ultimately enable the mass adoption of electric vehicles.
+
+## Citing frvcpy
+
+To cite frvcpy, please cite the research article (_link coming soon_) and/or the software itself:
+
+(_software-specific DOI coming soon_)
+
+Bibtex for this version of the code:
+
+(_formal reference coming soon_).
 
 ## Installation
 
@@ -186,13 +196,3 @@ To solve FRVCPs, frvcpy implements the labeling algorithm from Froger et al. (20
 For more information about the algorithm used in the solver, see [Froger et al. (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0305054818303253).
 
 The research article describing this software library can be found here (_link coming soon_).
-
-## Citing frvcpy
-
-To cite frvcpy, please cite the research article (_link coming soon_) and/or the software itself:
-
-(_software-specific DOI coming soon_)
-
-Bibtex for this version of the code:
-
-(_formal reference coming soon_).
