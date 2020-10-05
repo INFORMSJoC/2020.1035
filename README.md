@@ -37,7 +37,7 @@ frvcpy-test
 
 ## Using frvcpy
 
-With a compatible instance file ([see the schema](https://github.com/e-VRO/frvcpy/blob/master/instances/frvcpy-instance.schema.json)), solve the FRVCP from a Python script:
+With a compatible instance file ([see the schema](./data/frvcpy-instance.schema.json)), solve the FRVCP from a Python script:
 
 ```python
 from frvcpy import solver
@@ -46,13 +46,13 @@ route = [0,40,12,33,38,16,0]        # route to make energy feasible
 q_init = 16000                      # vehicle's initial energy level
 
 # using an existing instance from file
-frvcp_solver = solver.Solver("instances/frvcpy-instance.json", route, q_init)
+frvcp_solver = solver.Solver("data/frvcpy-instance.json", route, q_init)
 
 # run the algorithm
 duration, feas_route = frvcp_solver.solve()
 
 # write solution to file
-frvcp_solver.write_solution("my-solution.xml", instance_name="frvcpy-instance")
+frvcp_solver.write_solution("results/my-solution.xml", instance_name="frvcpy-instance")
 
 print(f"Duration: {duration:.4}")
 # Duration: 7.339
@@ -65,7 +65,7 @@ print(f"Energy-feasible route:\n{feas_route}")
 Or from the command line:
 
 ```bash
-frvcpy --instance=instances/frvcpy-instance.json --route=0,40,12,33,38,16,0 --qinit=16000 --output=my-solution.xml
+frvcpy --instance=data/frvcpy-instance.json --route=0,40,12,33,38,16,0 --qinit=16000 --output=results/my-solution.xml
 # Duration: 7.339
 # Energy-feasible route:
 # [(0, None), (40, None), (12, None), (33, None), (48, 6673.379615520617), (38, None), (16, None), (0, None)]
@@ -85,17 +85,17 @@ Translation can be done with the Python API via
 from frvcpy import translator
 
 # Option 1) write the translated instance to file
-translator.translate("instances/vrprep-instance.xml", to_filename="instances/my-new-instance.json")
+translator.translate("data/vrprep-instance.xml", to_filename="data/my-new-instance.json")
 
 # Option 2) make instance object to be passed directly to the solver
-frvcp_instance = translator.translate("instances/vrprep-instance.xml")
+frvcp_instance = translator.translate("data/vrprep-instance.xml")
 ```
 
 Or with the command line:
 
 ```bash
 # from CLI, only option is to write translated instance to file
-frvcpy-translate instances/vrprep-instance.xml instances/my-new-instance.json
+frvcpy-translate data/vrprep-instance.xml data/my-new-instance.json
 ```
 
 _Note: If an instance ending in ".xml" is passed to the solver, it is assumed to be a VRP-REP instance, and the solver will automatically attempt to translate it._
@@ -110,7 +110,7 @@ frvcpy's translator assumes VRP-REP instances are formatted similarly to the [Mo
 - These `function` elements are part of a `charging_functions` element in a `vehicle_profile`'s `custom` element
 - The depot has node ID 0, the N customers have IDs {1, ..., N}, and the CSs have IDs {N+1, ..., N+C}
 
-A good example of such an instance is the [example VRP-REP instance in the repository](https://github.com/e-VRO/frvcpy/blob/master/instances/vrprep-instance.xml).
+A good example of such an instance is the [example VRP-REP instance in the repository](./data/vrprep-instance.xml).
 
 Here is a smaller example meeting these requirements:
 
