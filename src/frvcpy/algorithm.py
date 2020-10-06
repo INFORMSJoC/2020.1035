@@ -2,6 +2,8 @@
 algorithm for the FRVCP from Froger et al. (2019).
 
 
+Copyright 2020 ND Kullman, A Froger, JE Mendoza, & JC Goodson
+
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0

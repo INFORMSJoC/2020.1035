@@ -17,6 +17,8 @@ More on the frvcpy instance format: the schema in the instances directory of
     frvcpy's homepage: github.com/e-VRO/frvcpy
 
 
+Copyright 2020 ND Kullman, A Froger, JE Mendoza, & JC Goodson
+
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
