@@ -4,7 +4,19 @@
 
 ### Fast optimal solutions to rich FRVCPs
 
-_For the latest verion of frvcpy, checkout [PyPI](https://pypi.org/project/frvcpy/) or the [homepage](https://github.com/e-VRO/frvcpy)._
+This archive is distributed in association with the [INFORMS Journal on
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [Apache license](LICENSE).
+
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported on in the paper 
+(_link coming soon_) by N. Kullman, A. Froger, JE Mendoza, and J. Goodson. 
+The snapshot is based on 
+[this SHA](https://github.com/e-VRO/frvcpy/commit/2c6dc419a6a60fa2a9b5e88bdb5371c29f7b3b2d) 
+in the development repository. 
+
+**Important: This code is being developed on an on-going basis at 
+[https://github.com/e-VRO/frvcpy/](https://github.com/e-VRO/frvcpy/). Please go there if you would like to
+get a more recent version or would like support.**
 
 ## What is an FRVCP?
 
