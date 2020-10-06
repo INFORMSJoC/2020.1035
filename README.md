@@ -8,19 +8,15 @@ This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [Apache license](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data
-that were used in the research reported on in the paper 
-(_link coming soon_) by N. Kullman, A. Froger, JE Mendoza, and J. Goodson. 
-The snapshot is based on 
-[this SHA](https://github.com/e-VRO/frvcpy/commit/2c6dc419a6a60fa2a9b5e88bdb5371c29f7b3b2d) 
-in the development repository. 
+that were used in the research reported on in the paper (_link coming soon_) by N. Kullman, A. Froger, JE Mendoza, and J. Goodson.
+The snapshot is based on [this SHA](https://github.com/e-VRO/frvcpy/commit/2c6dc419a6a60fa2a9b5e88bdb5371c29f7b3b2d) in the development repository.
 
-**Important: This code is being developed on an on-going basis at 
-[https://github.com/e-VRO/frvcpy/](https://github.com/e-VRO/frvcpy/). Please go there if you would like to
+**Important: This code is being developed on an on-going basis at [https://github.com/e-VRO/frvcpy/](https://github.com/e-VRO/frvcpy/). Please go there if you would like to
 get a more recent version or would like support.**
 
 ## What is an FRVCP?
 
-Given an elctric vehicle (EV) that's been assigned some sequence of locations to visit (a _fixed route_), the __fixed route vehicle charging problem__ (FRVCP) is the problem of finding the optimal insertion of recharging operations into the route that minimize the time required for the EV to traverse that route in an energy-feasible manner.
+Given an electric vehicle (EV) that's been assigned some sequence of locations to visit (a _fixed route_), the __fixed route vehicle charging problem__ (FRVCP) is the problem of finding the optimal insertion of recharging operations into the route that minimize the time required for the EV to traverse that route in an energy-feasible manner.
 
 ## Why does frvcpy exist?
 
