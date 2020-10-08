@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<solution instance="new-frvcp-instance">
+	<route id="0" initialcharge="16000.0">
+		<node id="0"></node>
+		<node id="40"></node>
+		<node id="12"></node>
+		<node id="33"></node>
+		<node id="48">
+			<charge>6673.379615520617</charge>
+		</node>
+		<node id="38"></node>
+		<node id="16"></node>
+		<node id="0"></node>
+	</route>
+</solution>
