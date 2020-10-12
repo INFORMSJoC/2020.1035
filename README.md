@@ -26,12 +26,19 @@ FRVCPs arise in many EV routing problems. While algorithms solving FRVCPs exist,
 
 To cite frvcpy, please cite the [research article](https://doi.org/10.1287/ijoc.2020.1035) and/or the software itself:
 
-(_software-specific DOI coming soon_)
+[![DOI](https://zenodo.org/badge/300479489.svg)](https://zenodo.org/badge/latestdoi/300479489)
 
 Bibtex for this version of the code:
-
-(_formal reference coming soon_).
-
+```
+@article{frvcpy,
+  author =        {N. Kullman, A. Froger, J.E. Mendoza, and J. Goodson},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {{frvcpy} Version v2020.1035},
+  year =          {2020},
+  doi =           {10.5281/zenodo.4081736},
+  url =           {https://github.com/INFORMSJoC/2020.1035},
+}  
+```
 ## Installation
 
 In a virtual environment with Python 3.6+, frvcpy can be installed via
