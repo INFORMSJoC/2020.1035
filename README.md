@@ -211,4 +211,4 @@ To solve FRVCPs, frvcpy implements the labeling algorithm from Froger et al. (20
 
 For more information about the algorithm used in the solver, see [Froger et al. (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0305054818303253).
 
-The research article describing this software library can be found here (_link coming soon_).
+The research article describing this software library can be found [here](https://doi.org/10.1287/ijoc.2020.1035).

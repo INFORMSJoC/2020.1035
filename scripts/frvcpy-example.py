@@ -1,7 +1,9 @@
 """Example Python script for frvcpy.
 
 This example follows the "Example Usage" seciton (5.2) from the original research
-article describing frvcpy (_link coming soon_).
+article describing frvcpy.
+That article may be found here:
+https://doi.org/10.1287/ijoc.2020.1035
 
 The script translates an instance from the VRP-REP format, solves an FRVCP on the
 instance, and writes the solution to file.
