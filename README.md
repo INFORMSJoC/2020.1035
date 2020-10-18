@@ -32,7 +32,7 @@ To cite frvcpy, please cite the [research article](https://doi.org/10.1287/ijoc.
 Bibtex for this version of the code:
 ```
 @article{frvcpy,
-  author =        {N. Kullman, A. Froger, J.E. Mendoza, and J. Goodson},
+  author =        {N. Kullman and A. Froger and J.E. Mendoza and J. Goodson},
   publisher =     {INFORMS Journal on Computing},
   title =         {{frvcpy} Version v2020.1035},
   year =          {2020},
