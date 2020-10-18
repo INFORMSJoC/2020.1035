@@ -9,7 +9,7 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [Apache licens
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper [frvcpy: An Open-Source Solver for the Fixed Route Vehicle
-Charging Problempaper](https://doi.org/10.1287/ijoc.2020.1035) by N. Kullman, A. Froger, JE Mendoza, and J. Goodson.
+Charging Problem](https://doi.org/10.1287/ijoc.2020.1035) by N. Kullman, A. Froger, JE Mendoza, and J. Goodson.
 The snapshot is based on [this SHA](https://github.com/e-VRO/frvcpy/commit/2c6dc419a6a60fa2a9b5e88bdb5371c29f7b3b2d) in the development repository.
 
 **Important: This code is being developed on an on-going basis at [https://github.com/e-VRO/frvcpy/](https://github.com/e-VRO/frvcpy/). Please go there if you would like to
